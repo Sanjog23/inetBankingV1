@@ -1,0 +1,21 @@
+<suite name="InetBankingV1">
+
+	<listeners>
+		<listener class-name="com.inetbanking.utilities.TestListener" />
+	</listeners>
+
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.inetbanking.testCases.TC_001_LoginTest" />
+			<!-- <class name="com.inetbanking.testCases.TC_002_LoginDDT" />--> 
+			<class name="com.inetbanking.testCases.TC_003_AddCustomerTest" />
+			<class name="com.inetbanking.testCases.TC_004_EditCustomerTest" />
+			<class name="com.inetbanking.testCases.TC_005_DeleteCustomerTest" />
+			<!--<class name="com.inetbanking.testCases.TC_006_AddNewAccount" /> 
+			<class name="com.inetbanking.testCases.TC_008_DeleteAccountTest" /> -->
+
+		</classes>
+	</test>
+
+</suite>
